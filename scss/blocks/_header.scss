@@ -1,0 +1,40 @@
+.header{
+    width: 100%;
+    background-color: #fff;
+    &--heading{
+        font-weight: bold;
+        font-size: 55px;
+        color: blue;
+        text-align: center;
+        border-bottom: 1px solid blue;
+    }
+    &--num{
+        color: blue;
+        font-weight: 400;
+        font-size: 35px;
+        border-bottom: 1px solid blue;
+        padding-bottom: 15px;
+    }
+    &__body{
+        display: flex;
+        margin-top: 50px;
+    }
+    &__first{
+        width: 400px;
+    }
+    &__second{
+        width: 700px;
+    }
+    &--listcards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &--listbooked{
+        list-style: none;
+    }
+}
+.bookList{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
